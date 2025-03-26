@@ -1,0 +1,116 @@
+/* assets/style.css
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ecf0f1; /* Cor de fundo clara */
+    color: #34495e; /* Cor do texto padrão */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: black;
+    color: #ecf0f1;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo do nav (navegação) */
+nav {
+    background-color: black; /* Cor de fundo do menu */
+    color: white;
+    font-size: 16px;
+    text-align: center; /* Centralizar o texto do menu */
+}
+
+nav ul {
+    list-style: none; /* Remover marcadores da lista */
+    padding: 0; /* Remover preenchimento */
+}
+
+nav li {
+    display: inline; /* Exibir itens da lista em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav a {
+    color: #ffffff; /* Cor do texto dos links */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+/* Estilo do main */
+main {
+    max-width: 800px; /* Largura máxima do main */
+    margin: 20px auto; /* Centralizar o main */
+    padding: 20px; /* Adicionar preenchimento */
+}
+
+/* Estilo das seções */
+section {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centralizar texto dentro da seção */
+}
+
+/* Estilo dos títulos */
+h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Estilo das imagens */
+img {
+    width: 300px; /* Defina a largura desejada */
+    height: auto; /* Altura automática para manter a proporção */
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra nas imagens */
+    display: block; /* Para centralizar as imagens */
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #000000;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contrail-one-regular {
+    font-family: "Contrail One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contrail-one-regular {
+    font-family: "Contrail One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
